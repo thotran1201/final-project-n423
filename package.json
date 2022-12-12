@@ -1,0 +1,18 @@
+{
+  "name": "fashion-police-blog-finalproject",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve-fb": "firebase serve --only hosting"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "firebase": "^9.15.0"
+  }
+}

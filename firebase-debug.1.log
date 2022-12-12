@@ -1,0 +1,30 @@
+[debug] [2022-12-08T22:18:11.063Z] ----------------------------------------------------------------------
+[debug] [2022-12-08T22:18:11.064Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\colum\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only hosting
+[debug] [2022-12-08T22:18:11.065Z] CLI Version:   11.17.0
+[debug] [2022-12-08T22:18:11.065Z] Platform:      win32
+[debug] [2022-12-08T22:18:11.065Z] Node Version:  v17.9.0
+[debug] [2022-12-08T22:18:11.065Z] Time:          Thu Dec 08 2022 17:18:11 GMT-0500 (Eastern Standard Time)
+[debug] [2022-12-08T22:18:11.066Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-08T22:18:11.171Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-08T22:18:11.172Z] > authorizing via signed-in user (tomtomtran19@gmail.com)
+[debug] [2022-12-08T22:18:11.172Z] [iam] checking project fashion-police-blog for permissions ["firebase.projects.get"]
+[debug] [2022-12-08T22:18:11.173Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/fashion-police-blog:testIamPermissions [none]
+[debug] [2022-12-08T22:18:11.173Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/fashion-police-blog:testIamPermissions x-goog-quota-user=projects/fashion-police-blog
+[debug] [2022-12-08T22:18:11.174Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fashion-police-blog:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-12-08T22:18:11.314Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/fashion-police-blog:testIamPermissions 200
+[debug] [2022-12-08T22:18:11.315Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/fashion-police-blog:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-12-08T22:18:11.316Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fashion-police-blog [none]
+[debug] [2022-12-08T22:18:11.478Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fashion-police-blog 200
+[debug] [2022-12-08T22:18:11.478Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fashion-police-blog {"projectId":"fashion-police-blog","projectNumber":"1083912907964","displayName":"fashion-police-blog","name":"projects/fashion-police-blog","resources":{"hostingSite":"fashion-police-blog","storageBucket":"fashion-police-blog.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_3b6e7ea9-fe12-4681-aeb3-cbcc89a01270"}
+[debug] [2022-12-08T22:18:11.484Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/fashion-police-blog/sites 
+[debug] [2022-12-08T22:18:11.920Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/fashion-police-blog/sites 200
+[debug] [2022-12-08T22:18:11.920Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/fashion-police-blog/sites {"sites":[{"name":"projects/fashion-police-blog/sites/fashion-police-blog","defaultUrl":"https://fashion-police-blog.web.app","appId":"1:1083912907964:web:c00186a3f5da8715b774b9","type":"DEFAULT_SITE"}]}
+[debug] [2022-12-08T22:18:11.920Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fashion-police-blog/webApps/1:1083912907964:web:c00186a3f5da8715b774b9/config [none]
+[debug] [2022-12-08T22:18:12.246Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fashion-police-blog/webApps/1:1083912907964:web:c00186a3f5da8715b774b9/config 200
+[debug] [2022-12-08T22:18:12.247Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fashion-police-blog/webApps/1:1083912907964:web:c00186a3f5da8715b774b9/config {"projectId":"fashion-police-blog","appId":"1:1083912907964:web:c00186a3f5da8715b774b9","storageBucket":"fashion-police-blog.appspot.com","locationId":"us-central","apiKey":"AIzaSyCp_BIagGmsvFiCV43sdmq70fCt4Jj0DpM","authDomain":"fashion-police-blog.firebaseapp.com","messagingSenderId":"1083912907964","measurementId":"G-G6EF2R0S6H"}
+[debug] [2022-12-08T22:18:12.265Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fashion-police-blog [none]
+[debug] [2022-12-08T22:18:12.485Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fashion-police-blog 200
+[debug] [2022-12-08T22:18:12.485Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fashion-police-blog {"projectId":"fashion-police-blog","projectNumber":"1083912907964","displayName":"fashion-police-blog","name":"projects/fashion-police-blog","resources":{"hostingSite":"fashion-police-blog","storageBucket":"fashion-police-blog.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_3b6e7ea9-fe12-4681-aeb3-cbcc89a01270"}
+[info] i  hosting[fashion-police-blog]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[fashion-police-blog]: Local server: http://localhost:5002 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:5002\u001b[22m\u001b[24m"}}
