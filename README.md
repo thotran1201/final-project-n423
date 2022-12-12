@@ -4,7 +4,7 @@ Attached link is below:
 
 https://in-info-web4.informatics.iupui.edu/~thotran/fashion-police-blog-finalproject/
 
-For this final project, I created this website called "Fashion Police Blog." It's a website that you can read jokes or write-up comments by the hilarious top cops or Fashion Police on celebrities' worst dressed from 2009-2022. There is also a "thinking game" page where you can upload 9 photos of celebrities' worst dressed and guess who is the ugliest and who is not the ugliest. Test
+For this final project, I created this website called "Fashion Police Blog." It's a website that you can read jokes or write-up comments by the hilarious top cops or Fashion Police on celebrities' worst dressed from 2009-2022. There is also a "thinking game" page where you can upload 9 photos of celebrities' worst dressed and guess who is the ugliest and who is not the ugliest.
 
 To develop the website, I used:
 
