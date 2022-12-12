@@ -1,0 +1,74 @@
+.create-title {
+    font-family: Archivo;
+    color: #F01660;
+    font-size: 21px;
+}
+
+.submit-button {
+    background-color: #F700F7;
+    height: 80px;
+    width: 170px;
+    margin-top: 22px;
+}
+
+.submit-button p {
+    font-size: 27px;
+    color: white;
+    margin-left: 45px;
+    padding-top: 25px;
+    font-family: UrbanistReg;
+}
+
+.rectangle-fname {
+    height: 50px;
+    width: 375px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-lname {
+    height: 50px;
+    width: 375px;
+    margin: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.create-account-form-two {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.rectangle-gmail-email {
+    height: 50px;
+    width: 788px;
+    margin-right: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-username {
+    height: 50px;
+    width: 788px;
+    margin-right: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-password {
+    height: 50px;
+    width: 788px;
+    margin-right: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-confirm-password {
+    height: 50px;
+    width: 788px;
+    margin-right: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}

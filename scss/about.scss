@@ -1,0 +1,59 @@
+.about-title h1 {
+    font-family: Archivo;
+    color: #F01660;
+    font-size: 35px;
+}
+
+.about-paragraph p {
+    font-family: UrbanistReg;
+    width: 535px;
+    line-height: 30px;
+}
+
+.top-cops {
+    margin-top: 70px;
+}
+
+.first-cop-color {
+    font-family: Archivo;
+    font-size: 20px;
+    line-height: 25px;
+    color:#F01660;
+}
+
+.second-cop-color {
+    font-family: Archivo;
+    font-size: 20px;
+    line-height: 25px;
+    color: #AAD0DF;
+}
+
+.cop-background-check {
+    font-family: UrbanistReg;
+    font-size: 15px;
+}
+
+.cop-bio {
+    text-align: center;
+}
+
+.cops-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cops-row-two {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 54px;
+}
+
+.cop-image img {
+    border-radius: 50%;
+    width: 145px;
+    align-items: center;
+}

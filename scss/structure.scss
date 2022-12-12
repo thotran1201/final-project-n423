@@ -1,0 +1,216 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, 
+body {
+ height: 100%
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: UrbanistBlack;
+    src: url(../fonts/Urbanist/static/Urbanist-Black.ttf);
+}
+
+@font-face {
+    font-family: UrbanistBlackIta;
+    src: url(../fonts/Urbanist/static/Urbanist-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistBold;
+    src: url(../fonts/Urbanist/static/Urbanist-Bold.ttf);
+}
+
+@font-face {
+    font-family: UrbanistExBold;
+    src: url(../fonts/Urbanist/static/Urbanist-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: UrbanistExBoldIta;
+    src: url(../fonts/Urbanist/static/Urbanist-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistExLight;
+    src: url(../fonts/Urbanist/static/Urbanist-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: UrbanistExLightIta;
+    src: url(../fonts/Urbanist/static/Urbanist-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistItalic;
+    src: url(../fonts/Urbanist/static/Urbanist-Italic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistLight;
+    src: url(../fonts/Urbanist/static/Urbanist-Light.ttf);
+}
+
+@font-face {
+    font-family: UrbanistLightIta;
+    src: url(../fonts/Urbanist/static/Urbanist-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistMedium;
+    src: url(../fonts/Urbanist/static/Urbanist-Medium.ttf);
+}
+
+@font-face {
+    font-family: UrbanistMediumIta;
+    src: url(../fonts/Urbanist/static/Urbanist-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistReg;
+    src: url(../fonts/Urbanist/static/Urbanist-Regular.ttf);
+}
+
+@font-face {
+    font-family: UrbanistSemiBold;
+    src: url(../fonts/Urbanist/static/Urbanist-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: UrbanistSemiBoldIta;
+    src: url(../fonts/Urbanist/static/Urbanist-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistThin;
+    src: url(../fonts/Urbanist/static/Urbanist-Thin.ttf);
+}
+
+@font-face {
+    font-family: UrbanistThinIta;
+    src: url(../fonts/Urbanist/static/Urbanist-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: Archivo;
+    src: url(../fonts/Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+
+body {
+    background-color: #FFF7F7;
+}
+
+.pink-rectangle {
+    height: 15px;
+    background-color: #F700F7;
+}
+
+.first-name-color {
+    font-family: UrbanistBold;
+    font-size: 19px;
+    color: #F01660;
+}
+
+.second-name-color {
+    font-family: UrbanistBold;
+    font-size: 19px;
+    color: black;
+}
+
+.container {
+    max-width: 1400px;
+    display: block;
+    margin: 1.0em auto;
+    padding: 2.0em 5.0em;
+    border-radius: 15px;
+}
+
+.blog-post-title {
+    font-family: Archivo;
+    font-size: 25px;
+}
+
+.blog-post img {
+    height: 454px;
+}
+
+.blog-rectangle {
+    background-color: #FFF7F7;
+    height: 300px;
+    width: 358px;
+    position: absolute;
+    top: 1150px;
+}
+
+.title-post p {
+    font-size: 23px;
+    margin-top: 12px;
+}
+
+.trending-typography p {
+    font-family: UrbanistReg;
+}
+
+.subtitle-post p {
+    font-family: UrbanistBold;
+}
+
+.underline {
+    border-bottom: 3px solid black;
+    width: 130px;
+}
+
+.author-name {
+    margin-top: 15px;
+}
+
+.latest-news-title {
+    font-family: Archivo;
+    font-size: 25px;
+    margin-top: 300px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 166px;  
+}
+
+.post {
+    margin: 0px 20px;
+}
+
+.title {
+    font-family: UrbanistBold;
+    margin-top: 23px;
+}
+
+.post-paragraph p {
+    font-family: UrbanistReg;
+}
+
+.third-post {
+    margin-left: -3px;
+}
+
+.fifth-post {
+    margin-left: 9px;
+}
+
+.sixth-post {
+    margin-left: 40px;
+}
+

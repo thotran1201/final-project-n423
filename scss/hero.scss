@@ -1,0 +1,28 @@
+.hero-section {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.hero-logo img {
+    height: 550px;
+}
+
+.hero-account {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.hero-account img {
+    height: 145px;
+}
+
+.hero-account a {
+    font-family: UrbanistReg;
+    font-size: 25px;
+    margin-top: 17px;
+    text-decoration: none;
+    color: black;
+}

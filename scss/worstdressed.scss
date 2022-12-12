@@ -1,0 +1,489 @@
+.year-title {
+    font-family: Archivo;
+    font-size: 21px;
+    text-align: center;
+}
+
+.page-description {
+    font-family: UrbanistReg;
+    line-height: 30px;
+    text-align: center;
+}
+
+.celebrity-worst {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.celebrity-worst h1 {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: UrbanistBold;
+}
+
+.first-color {
+    color: #F01660;
+}
+
+.second-color {
+    color: #AAD0DF;
+}
+
+.last-name {
+    font-family: UrbanistBold;
+    color: #F01660;
+    font-size: 20px;
+}
+
+.celebrity-worst-dressed-image img{
+    height: 400px;
+    width: 250px;
+    margin-left: 240px;
+}
+
+.celebrity {
+    margin-right: 30px;
+}
+
+.leighton {
+    margin-right: 70px;
+}
+
+.elizabeth {
+    margin-right: 7px;
+}
+
+.katy {
+    margin-right: 7px;
+}
+
+.kesha {
+    margin-right: 15px;
+}
+
+.rihanna {
+    margin-right: 65px;
+}
+
+.banks {
+    padding-right: 115px;
+}
+
+.ashley {
+    margin-right: 34px;
+}
+
+.kim {
+    padding-left: 9px;
+}
+
+.kardashian {
+    padding-left: 20px;
+}
+
+.kirsten {
+    margin-right: 69px;
+}
+
+.dunst {
+    padding-left: 17px;
+}
+
+.kourtney {
+    margin-right: 35px;
+}
+
+.kourt {
+    padding-left: 20px;
+}
+
+.maggie {
+    margin-left: 15px;
+}
+
+.gyllenhaal {
+    padding-left: 34px;
+}
+
+.olivia {
+    margin-right: 85px;
+}
+
+.wilde {
+    padding-left: 14px;
+}
+
+.cameron {
+    margin-right: 12px;
+}
+
+.demi {
+    margin-right: 30px;
+}
+
+.emma {
+    margin-left: 5px;
+}
+
+.freida {
+    margin-right: 12px;
+}
+
+.jaime {
+    margin-right: 12px;
+}
+
+.january {
+    margin-left: 6px;
+}
+
+.katy {
+    margin-right: 50px;
+}
+
+.perry {
+    margin-right: 14px;
+}
+
+.kristen {
+    margin-left: 5px;
+}
+
+.bell {
+    padding-left: 5px;
+}
+
+.amanda {
+    margin-right: 93px;
+}
+
+.amber {
+    margin-right: 94px;
+}
+
+.ciara {
+    margin-right: 7px;
+}
+
+.florence {
+    margin-right: 117px;
+}
+
+.jennifer {
+    margin-right: 1px;
+}
+
+.catrall {
+    margin-right: 43px;
+}
+
+.rihanna {
+    margin-right: 12px;
+}
+
+.vhud {
+    margin-left: 1px;
+}
+
+.ashbenzo {
+    margin-right: 1px;
+}
+
+.kate {
+    margin-right: 47px;
+}
+
+.lena {
+    margin-right: 49px;
+}
+
+.victoria {
+    margin-right: 52px;
+}
+
+.zendaya {
+    margin-right: 74px;
+}
+
+.charli {
+    margin-right: 10px;
+}
+
+.janel {
+    margin-right: 105px;
+}
+
+.kris {
+    margin-right: 117px;
+}
+
+.paz {
+    margin-right: 112px;
+}
+
+.alicia {
+    margin-right: 24px;
+}
+
+.bella {
+    margin-right: 110px;
+}
+
+.carrie {
+    margin-right: 38px;
+}
+
+.johnson {
+    margin-right: 4px;
+}
+
+.gigi {
+    margin-right: 91px;
+}
+
+.jane {
+    margin-right: 79px;
+}
+
+.keke {
+    margin-right: 4px;
+}
+
+.kristi {
+    margin-right: 122px;
+}
+
+.nicki {
+    margin-right: 89px;
+}
+
+.gomez {
+    margin-right: 122px;
+}
+
+.taraji {
+    margin-right: 45px;
+}
+
+.troian {
+    margin-right: 98px;
+}
+
+.thorne {
+    margin-right: 120px;
+}
+
+.lovato {
+    margin-right: 4px;
+}
+
+.roberts {
+    margin-right: 12px;
+}
+
+.kimmy {
+    margin-right: 6px;
+}
+
+.lili {
+    margin-right: 6px;
+}
+
+.lilly {
+    margin-right: 5px;
+}
+
+.naya {
+    margin-right: 140px;
+}
+
+.culpo {
+    margin-right: 36px;
+}
+
+.witch {
+    margin-right: 134px;
+}
+
+.zoey {
+    margin-right: 2px;
+}
+
+.underwood {
+    margin-right: 117px;
+}
+
+.chloe {
+    margin-right: 15px;
+}
+
+.christian {
+    margin-right: 40px;
+}
+
+.halsey {
+    margin-right: 120px;
+}
+
+.jlo {
+    margin-right: 14px;
+}
+
+.kendall {
+    margin-right: 1px;
+}
+
+.kimberly {
+    margin-right: 17px;
+}
+
+.kylie {
+    margin-right: 17px;
+}
+
+.madeline {
+    margin-right: 120px;
+}
+
+.rachel {
+    margin-right: 1px;
+}
+
+.tove {
+    margin-right: 1px;
+}
+
+.pleather {
+    margin-right: 120px;
+}
+
+.brittany {
+    margin-right: 30px;
+}
+
+.dania {
+    margin-right: 35px;
+}
+
+.harry {
+    margin-right: 45px;
+}
+
+.naomi {
+    margin-right: 20px;
+}
+
+.wilde {
+    margin-right: 140px;
+}
+
+.peyton {
+    margin-right: 95px;
+}
+
+.shay {
+    margin-right: 202px;
+}
+
+.tana {
+    margin-right: 68px;
+}
+
+.benson {
+    margin-right: 120px;
+}
+
+.shield {
+    margin-right: 100px;
+}
+
+.doja {
+    margin-right: 30px;
+}
+
+.katherine {
+    margin-right: 120px;
+}
+
+.kimmo {
+    margin-right: 93px;
+}
+
+.wiig {
+    margin-right: 119px;
+}
+
+.melina {
+    margin-right: 104px;
+}
+
+.lo {
+    margin-right: 75px;
+}
+
+.moretz {
+    margin-right: 23px;
+}
+
+.rockchic {
+    margin-right: 2px;
+}
+
+.garcelle {
+    margin-right: 120px;
+}
+
+.ballsy {
+    margin-left: 1px;
+}
+
+.celebrity-worst-dressed-image-cate {
+    margin-left: 40px;
+}
+
+.celebrity-worst-dressed-image-cate img {
+    height: 522px;
+    margin-top: 40px;
+}
+
+.celebrity-name {
+    margin-left: 10px;
+}
+
+.celebrity-name-cate {
+    margin-left: 400px;
+    padding-top: 11px;
+}
+
+.first-name {
+    color: #F01660;
+    font-family: UrbanistBold;
+    font-size: 30px;
+}
+
+.second-name {
+    color: black;
+    font-family: UrbanistBold;
+    font-size: 30px;
+}
+
+.fashion-police-write-em-ups p {
+    max-width: 50ch;
+    font-family: UrbanistReg;
+}
+
+.verdict {
+    margin-top: 62px;
+}
+
+.verdict p {
+    font-family: UrbanistBold;
+    color:#AAD0DF;
+    font-size: 25px;
+}
+
+.verdict-name {
+    color: #F01660;
+    font-size: 25px;
+}

@@ -1,0 +1,1110 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html, 
+body {
+ height: 100%
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: UrbanistBlack;
+    src: url(../fonts/Urbanist/static/Urbanist-Black.ttf);
+}
+
+@font-face {
+    font-family: UrbanistBlackIta;
+    src: url(../fonts/Urbanist/static/Urbanist-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistBold;
+    src: url(../fonts/Urbanist/static/Urbanist-Bold.ttf);
+}
+
+@font-face {
+    font-family: UrbanistExBold;
+    src: url(../fonts/Urbanist/static/Urbanist-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: UrbanistExBoldIta;
+    src: url(../fonts/Urbanist/static/Urbanist-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistExLight;
+    src: url(../fonts/Urbanist/static/Urbanist-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: UrbanistExLightIta;
+    src: url(../fonts/Urbanist/static/Urbanist-ExtraLightItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistItalic;
+    src: url(../fonts/Urbanist/static/Urbanist-Italic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistLight;
+    src: url(../fonts/Urbanist/static/Urbanist-Light.ttf);
+}
+
+@font-face {
+    font-family: UrbanistLightIta;
+    src: url(../fonts/Urbanist/static/Urbanist-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistMedium;
+    src: url(../fonts/Urbanist/static/Urbanist-Medium.ttf);
+}
+
+@font-face {
+    font-family: UrbanistMediumIta;
+    src: url(../fonts/Urbanist/static/Urbanist-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistReg;
+    src: url(../fonts/Urbanist/static/Urbanist-Regular.ttf);
+}
+
+@font-face {
+    font-family: UrbanistSemiBold;
+    src: url(../fonts/Urbanist/static/Urbanist-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: UrbanistSemiBoldIta;
+    src: url(../fonts/Urbanist/static/Urbanist-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: UrbanistThin;
+    src: url(../fonts/Urbanist/static/Urbanist-Thin.ttf);
+}
+
+@font-face {
+    font-family: UrbanistThinIta;
+    src: url(../fonts/Urbanist/static/Urbanist-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: Archivo;
+    src: url(../fonts/Archivo_Black/ArchivoBlack-Regular.ttf);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+    max-width: 1600px;
+    height: 75px;
+}
+
+nav a {
+    font-family: UrbanistReg;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.dropbtn {
+  color: black;
+  padding: 16px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  font-family: UrbanistReg;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #F700F7
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: white;
+}
+
+body {
+    background-color: #FFF7F7;
+}
+
+.pink-rectangle {
+    height: 15px;
+    background-color: #F700F7;
+}
+
+.hero-section {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.hero-logo img {
+    height: 550px;
+}
+
+.hero-account {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.hero-account img {
+    height: 145px;
+}
+
+.hero-account a {
+    font-family: UrbanistReg;
+    font-size: 25px;
+    margin-top: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    max-width: 1400px;
+    display: block;
+    margin: 1.0em auto;
+    padding: 2.0em 5.0em;
+    border-radius: 15px;
+}
+
+.blog-post-title {
+    font-family: Archivo;
+    font-size: 25px;
+}
+
+.blog-post img {
+    height: 454px;
+}
+
+.blog-rectangle {
+    background-color: #FFF7F7;
+    height: 300px;
+    width: 358px;
+    position: absolute;
+    top: 1150px;
+}
+
+.title-post p {
+    font-size: 23px;
+    margin-top: 12px;
+}
+
+.trending-typography p {
+    font-family: UrbanistReg;
+}
+
+.subtitle-post p {
+    font-family: UrbanistBold;
+}
+
+.underline {
+    border-bottom: 3px solid black;
+    width: 130px;
+}
+
+.author-name {
+    margin-top: 15px;
+}
+
+.latest-news-title {
+    font-family: Archivo;
+    font-size: 25px;
+    margin-top: 300px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-bottom: 166px;  
+}
+
+.post {
+    margin: 0px 20px;
+}
+
+.post-image {
+    width: 300px;
+    height: 250px;
+    background-image: url("../images/worst-dressed-2022.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family: UrbanistBold;
+    margin-top: 23px;
+}
+
+.post-paragraph p {
+    font-family: UrbanistReg;
+}
+
+.second-post-image {
+    width: 300px;
+    height: 250px;
+    background-image: url("../images/worst-years-of-fashion.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.third-post {
+    margin-left: -3px;
+}
+
+.third-post-image {
+    width: 300px;
+    height: 250px;
+    background-image: url("../images/worst-dressed-2011.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fourth-post-image {
+    width: 300px;
+    height: 250px;
+    background-image: url("../images/worst-dressed-2021.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fifth-post {
+    margin-left: 9px;
+}
+
+.fifth-post-image {
+    width: 300px;
+    height: 250px;
+    background-image: url("../images/worst-dressed-2020.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sixth-post {
+    margin-left: 40px;
+}
+
+.sixth-post-image {
+    width: 300px;
+    height: 250px;
+    background-image: url("../images/worst-dressed-2013.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-title h1 {
+    font-family: Archivo;
+    color: #F01660;
+    font-size: 35px;
+}
+
+.about-paragraph p {
+    font-family: UrbanistReg;
+    width: 535px;
+    line-height: 30px;
+}
+
+.top-cops {
+    margin-top: 70px;
+}
+
+.first-cop-color {
+    font-family: Archivo;
+    font-size: 20px;
+    line-height: 25px;
+    color:#F01660;
+}
+
+.second-cop-color {
+    font-family: Archivo;
+    font-size: 20px;
+    line-height: 25px;
+    color: #AAD0DF;
+}
+
+.cop-background-check {
+    font-family: UrbanistReg;
+    font-size: 15px;
+}
+
+.cop-bio {
+    text-align: center;
+}
+
+.cops-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.cops-row-two {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 54px;
+}
+
+.cop-image img {
+    border-radius: 50%;
+    width: 145px;
+    align-items: center;
+}
+
+.first-name-color {
+    font-family: UrbanistBold;
+    font-size: 19px;
+    color: #F01660;
+}
+
+.second-name-color {
+    font-family: UrbanistBold;
+    font-size: 19px;
+    color: black;
+}
+
+.contact-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.rectangle-name {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-gmail {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-message {
+    height: 250px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #F700F7;
+}
+
+.contact-title {
+    font-family: Archivo;
+    color: #F01660;
+    font-size: 21px;
+}
+
+.contact-paragraph {
+    font-family: UrbanistReg;
+    width: 300px;
+    line-height: 30px;
+}
+
+.account-title {
+    font-family: Archivo;
+    color: #F01660;
+    font-size: 21px;
+}
+
+.login-button {
+    background-color: #F700F7;
+    height: 78px;
+    width: 170px;
+    margin-top: 34px;
+}
+
+.login-button p {
+    font-size: 27px;
+    color: white;
+    margin-left: 55px;
+    padding-top: 25px;
+    font-family: UrbanistReg;
+}
+
+.create-title {
+    font-family: Archivo;
+    color: #F01660;
+    font-size: 21px;
+}
+
+.submit-button {
+    background-color: #F700F7;
+    height: 80px;
+    width: 170px;
+    margin-top: 22px;
+}
+
+.submit-button p {
+    font-size: 27px;
+    color: white;
+    margin-left: 45px;
+    padding-top: 25px;
+    font-family: UrbanistReg;
+}
+
+.rectangle-fname {
+    height: 50px;
+    width: 375px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-lname {
+    height: 50px;
+    width: 375px;
+    margin: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.create-account-form-two {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.rectangle-gmail-email {
+    height: 50px;
+    width: 788px;
+    margin-right: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-username {
+    height: 50px;
+    width: 788px;
+    margin-right: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-password {
+    height: 50px;
+    width: 788px;
+    margin-right: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-confirm-password {
+    height: 50px;
+    width: 788px;
+    margin-right: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.voting-game-title {
+    font-family: Archivo;
+    color: #F01660;
+    font-size: 21px;
+}
+
+.voting-game-instructions {
+    font-family: UrbanistReg;
+    line-height: 30px;
+}
+
+#displayimage {
+    width: 375px;
+    height: 615px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+.upload-button {
+    background-color: #F700F7;
+    height: 80px;
+    width: 170px;
+    margin-top: 22px;
+}
+
+.upload-button p {
+    font-size: 27px;
+    color: white;
+    margin-left: 45px;
+    padding-top: 25px;
+    font-family: UrbanistReg;
+}
+
+#celebrityworst {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.celebrity-item img {
+    width: 375px;
+    height: 615px;
+    border: 1px solid black;
+}
+
+.forget-password {
+    margin-top: 24px;
+}
+
+.forget-password a {
+    font-family: UrbanistReg;
+    color: #F01660;
+    text-decoration: none;
+}
+
+.year-title {
+    font-family: Archivo;
+    font-size: 21px;
+    text-align: center;
+}
+
+.page-description {
+    font-family: UrbanistReg;
+    line-height: 30px;
+    text-align: center;
+}
+
+.celebrity-worst {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.celebrity-worst h1 {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: UrbanistBold;
+}
+
+.first-color {
+    color: #F01660;
+}
+
+.second-color {
+    color: #AAD0DF;
+}
+
+.last-name {
+    font-family: UrbanistBold;
+    color: #F01660;
+    font-size: 20px;
+}
+
+.celebrity-worst-dressed-image img{
+    height: 400px;
+    width: 250px;
+    margin-left: 240px;
+}
+
+.celebrity {
+    margin-right: 30px;
+}
+
+.leighton {
+    margin-right: 70px;
+}
+
+.elizabeth {
+    margin-right: 7px;
+}
+
+.katy {
+    margin-right: 7px;
+}
+
+.kesha {
+    margin-right: 15px;
+}
+
+.rihanna {
+    margin-right: 65px;
+}
+
+.banks {
+    padding-right: 115px;
+}
+
+.ashley {
+    margin-right: 34px;
+}
+
+.kim {
+    padding-left: 9px;
+}
+
+.kardashian {
+    padding-left: 20px;
+}
+
+.kirsten {
+    margin-right: 69px;
+}
+
+.dunst {
+    padding-left: 17px;
+}
+
+.kourtney {
+    margin-right: 35px;
+}
+
+.kourt {
+    padding-left: 20px;
+}
+
+.maggie {
+    margin-left: 15px;
+}
+
+.gyllenhaal {
+    padding-left: 34px;
+}
+
+.olivia {
+    margin-right: 85px;
+}
+
+.wilde {
+    padding-left: 14px;
+}
+
+.cameron {
+    margin-right: 12px;
+}
+
+.demi {
+    margin-right: 30px;
+}
+
+.emma {
+    margin-left: 5px;
+}
+
+.freida {
+    margin-right: 12px;
+}
+
+.jaime {
+    margin-right: 12px;
+}
+
+.january {
+    margin-left: 6px;
+}
+
+.katy {
+    margin-right: 50px;
+}
+
+.perry {
+    margin-right: 14px;
+}
+
+.kristen {
+    margin-left: 5px;
+}
+
+.bell {
+    padding-left: 5px;
+}
+
+.amanda {
+    margin-right: 93px;
+}
+
+.amber {
+    margin-right: 94px;
+}
+
+.ciara {
+    margin-right: 7px;
+}
+
+.florence {
+    margin-right: 117px;
+}
+
+.jennifer {
+    margin-right: 1px;
+}
+
+.catrall {
+    margin-right: 43px;
+}
+
+.rihanna {
+    margin-right: 12px;
+}
+
+.vhud {
+    margin-left: 1px;
+}
+
+.ashbenzo {
+    margin-right: 1px;
+}
+
+.kate {
+    margin-right: 47px;
+}
+
+.lena {
+    margin-right: 49px;
+}
+
+.victoria {
+    margin-right: 52px;
+}
+
+.zendaya {
+    margin-right: 74px;
+}
+
+.charli {
+    margin-right: 10px;
+}
+
+.janel {
+    margin-right: 105px;
+}
+
+.kris {
+    margin-right: 117px;
+}
+
+.paz {
+    margin-right: 112px;
+}
+
+.alicia {
+    margin-right: 24px;
+}
+
+.bella {
+    margin-right: 110px;
+}
+
+.carrie {
+    margin-right: 38px;
+}
+
+.johnson {
+    margin-right: 4px;
+}
+
+.gigi {
+    margin-right: 91px;
+}
+
+.jane {
+    margin-right: 79px;
+}
+
+.keke {
+    margin-right: 4px;
+}
+
+.kristi {
+    margin-right: 122px;
+}
+
+.nicki {
+    margin-right: 89px;
+}
+
+.gomez {
+    margin-right: 122px;
+}
+
+.taraji {
+    margin-right: 45px;
+}
+
+.troian {
+    margin-right: 98px;
+}
+
+.thorne {
+    margin-right: 120px;
+}
+
+.lovato {
+    margin-right: 4px;
+}
+
+.roberts {
+    margin-right: 12px;
+}
+
+.kimmy {
+    margin-right: 6px;
+}
+
+.lili {
+    margin-right: 6px;
+}
+
+.lilly {
+    margin-right: 5px;
+}
+
+.naya {
+    margin-right: 140px;
+}
+
+.culpo {
+    margin-right: 36px;
+}
+
+.witch {
+    margin-right: 134px;
+}
+
+.zoey {
+    margin-right: 2px;
+}
+
+.underwood {
+    margin-right: 117px;
+}
+
+.chloe {
+    margin-right: 15px;
+}
+
+.christian {
+    margin-right: 40px;
+}
+
+.halsey {
+    margin-right: 120px;
+}
+
+.jlo {
+    margin-right: 14px;
+}
+
+.kendall {
+    margin-right: 1px;
+}
+
+.kimberly {
+    margin-right: 17px;
+}
+
+.kylie {
+    margin-right: 17px;
+}
+
+.madeline {
+    margin-right: 120px;
+}
+
+.rachel {
+    margin-right: 1px;
+}
+
+.tove {
+    margin-right: 1px;
+}
+
+.pleather {
+    margin-right: 120px;
+}
+
+.brittany {
+    margin-right: 30px;
+}
+
+.dania {
+    margin-right: 35px;
+}
+
+.harry {
+    margin-right: 45px;
+}
+
+.naomi {
+    margin-right: 20px;
+}
+
+.wilde {
+    margin-right: 140px;
+}
+
+.peyton {
+    margin-right: 95px;
+}
+
+.shay {
+    margin-right: 202px;
+}
+
+.tana {
+    margin-right: 68px;
+}
+
+.benson {
+    margin-right: 120px;
+}
+
+.shield {
+    margin-right: 100px;
+}
+
+.doja {
+    margin-right: 30px;
+}
+
+.katherine {
+    margin-right: 120px;
+}
+
+.kimmo {
+    margin-right: 93px;
+}
+
+.wiig {
+    margin-right: 119px;
+}
+
+.melina {
+    margin-right: 104px;
+}
+
+.lo {
+    margin-right: 75px;
+}
+
+.moretz {
+    margin-right: 23px;
+}
+
+.rockchic {
+    margin-right: 2px;
+}
+
+.garcelle {
+    margin-right: 120px;
+}
+
+.ballsy {
+    margin-left: 1px;
+}
+
+.celebrity-worst-dressed-image-cate {
+    margin-left: 40px;
+}
+
+.celebrity-worst-dressed-image-cate img {
+    height: 522px;
+    margin-top: 40px;
+}
+
+.celebrity-name {
+    margin-left: 10px;
+}
+
+.celebrity-name-cate {
+    margin-left: 400px;
+    padding-top: 11px;
+}
+
+.first-name {
+    color: #F01660;
+    font-family: UrbanistBold;
+    font-size: 30px;
+}
+
+.second-name {
+    color: black;
+    font-family: UrbanistBold;
+    font-size: 30px;
+}
+
+.fashion-police-write-em-ups p {
+    max-width: 50ch;
+    font-family: UrbanistReg;
+}
+
+.verdict {
+    margin-top: 62px;
+}
+
+.verdict p {
+    font-family: UrbanistBold;
+    color:#AAD0DF;
+    font-size: 25px;
+}
+
+.verdict-name {
+    color: #F01660;
+    font-size: 25px;
+}
+
+.copyright p {
+    margin-left: 620px;
+    font-family: UrbanistReg;
+    font-size: 15px;
+}
+
+.footer {
+    background-color: #F700F7;
+    width: 1519px;
+    height: 100px;
+}
+
+.footer img {
+    width: 170px;
+    margin-left: 630px;
+}

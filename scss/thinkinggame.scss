@@ -1,0 +1,44 @@
+.voting-game-title {
+    font-family: Archivo;
+    color: #F01660;
+    font-size: 21px;
+}
+
+.voting-game-instructions {
+    font-family: UrbanistReg;
+    line-height: 30px;
+}
+
+#displayimage {
+    width: 375px;
+    height: 615px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+}
+
+.upload-button {
+    background-color: #F700F7;
+    height: 80px;
+    width: 170px;
+    margin-top: 22px;
+}
+
+.upload-button p {
+    font-size: 27px;
+    color: white;
+    margin-left: 45px;
+    padding-top: 25px;
+    font-family: UrbanistReg;
+}
+
+#celebrityworst {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.celebrity-item img {
+    width: 375px;
+    height: 615px;
+    border: 1px solid black;
+}

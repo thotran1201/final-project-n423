@@ -1,0 +1,41 @@
+.contact-section {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.rectangle-name {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-gmail {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #FF00CC;
+}
+
+.rectangle-message {
+    height: 250px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #F700F7;
+}
+
+.contact-title {
+    font-family: Archivo;
+    color: #F01660;
+    font-size: 21px;
+}
+
+.contact-paragraph {
+    font-family: UrbanistReg;
+    width: 300px;
+    line-height: 30px;
+}

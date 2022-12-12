@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THINKING | FASHION POLICE BLOG</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+    <div class="pink-rectangle">
+    </div>
+
+    <div class="hero-section">
+        <div class="hero-logo">
+            <img src="images/fashion-police-logo.png" alt="logo">
+        </div>
+        <div class="hero-account">
+            <img src="images/login.png" alt="login">
+            <a href="/account.html">Account</a>
+        </div>
+    </div>
+    
+    <nav>
+        <a href="/index.html">WELCOME</a>
+        <a href="/about.html">ABOUT</a>
+        <div class="dropdown">
+            <button class="dropbtn">WORST DRESSED LIST</button>
+            <div class="dropdown-content">
+              <a href="/2009.html">2009</a>
+              <a href="/2010.html">2010</a>
+              <a href="/2011.html">2011</a>
+              <a href="/2012.html">2012</a>
+              <a href="/2013.html">2013</a>
+              <a href="/2014.html">2014</a>
+              <a href="/2015.html">2015</a>
+              <a href="/2016.html">2016</a>
+              <a href="/2017.html">2017</a>
+              <a href="/2018.html">2018</a>
+              <a href="/2019.html">2019</a>
+              <a href="/2020.html">2020</a>
+              <a href="#">2021</a>
+              <a href="#">2022</a>
+            </div>
+          </div>
+        <a href="#worstoffashion">WORST OF FASHION</a>
+        <a href="/contact.html">CONTACT</a>
+        <a href="/vote.html">THINKING</a>
+    </nav>
+
+    <div class="container">
+        <div class="voting-game-section">
+            <div class="voting-game-title">
+                <h1>THINKING GAME</h1>
+            </div>
+            <div class="voting-game-instructions">
+                <p>Let's play a fun but interesting thinking game. Think you have what it takes to be a Top Cop or Fashion Police? Now it's your turn to be a Top Cop or a Fashion Police, like us!</p>
+                <p>Submit up to 9 worst dressed photos and who do you think is the ugliest. The ugliest goes first while the 9th is the less ugliest. When you done, exhibit your top 9 worst dressed celebrities and share it to your friends and family.</p>
+            </div>
+            <div id="celebrityworst" class="celebrity-ugly-outfit">
+                <div class="celebrity-item">
+                    <img id="celebimage" src="" alt="" onclick="removeImage(this.src)">
+                </div>
+        </div>
+        <div id="displayimage">
+
+        </div>
+        <input id="upload" type="file" accept="image/jpg, image/png">
+        <div id="submitbutton" class="submit-button">
+            <p>Submit</p>
+        </div>
+    </div>
+
+    <div class="footer-section">
+        <div class="copyright">
+            <p>2022 Copyright. All Rights Reserved</p>
+        </div>
+        <div class="footer">
+            <img src="images/fashion-police-logo.png" alt="footerlogo">
+        </div>
+    </div>
+
+    <script src="lib/jquery-3.6.1.min.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/vote.js"></script>
+</body>
+</html>
