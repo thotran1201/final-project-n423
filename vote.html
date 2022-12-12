@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CREATE THE ACCOUNT | FASHION POLICE BLOG</title>
+    <title>THINKING | FASHION POLICE BLOG</title>
     <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
@@ -50,23 +50,27 @@
     </nav>
 
     <div class="container">
-        <div class="create-section">
-            <div class="create-title">
-                <h1>CREATE THE ACCOUNT</h1>
+        <div class="voting-game-section">
+            <div class="voting-game-title">
+                <h1>THINKING GAME</h1>
             </div>
-            <div class="create-account-form">
-                <div class="create-account-form-two">
-                    <input id="newusername" type="text" class="rectangle-username" placeholder="username"></input>
-                    <input id="newpassword" type="text" class="rectangle-password" placeholder="password"></input>
-                    <input id="confirmpassword" type="text" class="rectangle-confirm-password" placeholder="confirm password"></input>
-                </form>    
+            <div class="voting-game-instructions">
+                <p>Let's play a fun but interesting thinking game. Think you have what it takes to be a Top Cop or Fashion Police? Now it's your turn to be a Top Cop or a Fashion Police, like us!</p>
+                <p>Submit up to 9 worst dressed photos and who do you think is the ugliest. The ugliest goes first while the 9th is the less ugliest. When you done, exhibit your top 9 worst dressed celebrities and share it to your friends and family.</p>
+            </div>
+            <div id="celebrityworst" class="celebrity-ugly-outfit">
+                <div class="celebrity-item">
+                    <img id="celebimage" src="" alt="" onclick="removeImage(this.src)">
                 </div>
-            </div>    
         </div>
-    <div id="createaccount" class="submit-button">
-        <p>Create</p>
+        <div id="displayimage">
+
+        </div>
+        <input id="upload" type="file" accept="image/jpg, image/png">
+        <div id="submitbutton" class="submit-button">
+            <p>Submit</p>
+        </div>
     </div>
-</div>
 
     <div class="footer-section">
         <div class="copyright">
@@ -79,6 +83,6 @@
 
     <script src="lib/jquery-3.6.1.min.js"></script>
     <script src="app/app.js"></script>
-    <script src="app/create.js"></script>
+    <script src="app/vote.js"></script>
 </body>
 </html>
